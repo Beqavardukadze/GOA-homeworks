@@ -1,0 +1,3 @@
+name = "beqa"
+
+print(name)
