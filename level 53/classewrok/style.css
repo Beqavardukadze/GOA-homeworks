@@ -1,0 +1,27 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+    position: absolute;
+
+    left: 150px;
+
+    top: 200px;
+    z-index: ;
+
+
+
+    /* top = zemodan dashoreba
+    left = marcxnidan dashoreba */
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+
+    position: absolute;
+    left: 100px;
+    top: 50;
+    z-index: ;
+}
