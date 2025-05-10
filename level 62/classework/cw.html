@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading Bar Animation</title>
+  <style>
+    body {
+      margin: 0;
+      background: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .loading-container {
+      width: 80%;
+      height: 20px;
+      background-color: #333;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .loading-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #00f260, #0575e6);
+      transition: width 5s ease-in-out, opacity 1s ease-in-out;
+    }
+
+    .fade-out {
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="loading-container">
+    <div class="loading-bar" id="bar"></div>
+  </div>
+
+  <script>
+    window.addEventListener('load', () => {
+      const bar = document.getElementById('bar');
+
+      
+      setTimeout(() => {
+        bar.style.width = '100%';
+
+        
+        setTimeout(() => {
+          bar.classList.add('fade-out');
+        }, 5000);
+      }, 5000); 
+    });
+  </script>
+
+</body>
+</html>

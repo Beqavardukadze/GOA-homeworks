@@ -1,0 +1,36 @@
+
+.qvesh_lurji_xazi {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+
+
+
+
+.yviteli_qveda_xazi {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    color: darkblue;
+}
+
+
+.iasamnisferi_xazit_shuashi {
+    text-decoration: line-through;
+    text-decoration-color: purple;
+    color: #800080;
+}
+
+
+.mwvane_xazi_zemodan {
+    text-decoration: overline;
+    text-decoration-color: green;
+    color: darkgreen;
+}
+
+
+.ferad_satauri {
+    text-decoration: underline overline line-through;
+    text-decoration-color: orange skyblue blue;
+    color: #c94f00; 
+}
