@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Codystar:wght@300;400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+
+
+*{
+    background-color: blue;
+}
+
+/* 1)შექმენით ერთი პარაგრაოპი სადაც ჩაწერთ წინადადებას,გაამუქე ეს ტექსტი,გამოიყენე როგორც რიცხვები ასევე მნიშვნელობებიც */
+.p1 {
+    font-size: 100px;
+    font-weight: 900;
+
+    
+}
+
+/* 2)შექმენი პარაგრაფი სადაც ჩაწერთ წინადადებას,თქვენი დავალებაა დააიმპორტოთ გუგლ ფონტიდან ნებისმიერი ფონტი  */
+
+
+.p2 {
+
+    font-size: 100px;
+    font-family: "Playwrite DK Loopet", cursive;
+
+}
+
+/* 3)შექმენი პარაგრაფი სადაც ჩაწერთ წინადადებას,თქვენი დავალებაა დააიმპორტოთ გუგლ ფონტიდან ნებისმიერი ფონტი,შეუცვალეთ ამ ტექსტს სისქე */
+
+.p3 {
+
+    font-size: 100px;
+    font-family: "Codystar", sans-serif;
+    font-weight: 900;
+    
+}
+
+/* 4)შექმენი პარაგრაფი სადაც ჩაწერთ წინადადებას,თქვენი დავალებაა დააიმპორტოთ გუგლ ფონტიდან ნებისმიერი ფონტი,შეუცვალეთ ამ ტექსტს სისქე და ასევე შუაში გაუსვით ტალღოვანი ხაზი რომლის ფერიც იქნება სტაფილოსფერი */
+
+.p4{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Barrio", system-ui;
+    text-decoration: underline wavy orange;
+
+}
+/* 5)შექმენი პარაგრაფი სადაც ჩაწერთ წინადადებას,თქვენი დავალებაა დააიმპორტოთ გუგლ ფონტიდან ნებისმიერი ფონტი,შეუცვალეთ ამ ტექსტს სისქე და ასევე ზემოთ გაუსვით წერტილოვანი ხაზი და მისი ფერი იყოს წითელი */
+
+.p5{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Rubik Iso", system-ui;
+    text-decoration: overline dotted red;
+}
+
+/* 6)იექსპერიმენტეთ დღეს გავლილ მასალაზე,დააიმპორთეთ ფონტები და შეუცვალეთ ტექსტის დეკორაციები,გამოიყენეთ აბსოლიტურად ყველა გზა რაც დეკორაციებს შეეხება */
+
+.p6{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: underline wavy green;
+    
+
+}

@@ -1,0 +1,22 @@
+p{
+    font-size: 100;
+    text-decoration: dotted red;
+
+}
+
+/* dashed = wyvetili xazi
+dotted = wertilovani xazebi
+wavy = talguri xazi*/
+
+
+p{ 
+    font-family: serif;
+}
+
+/* damwerloba 
+ */
+
+p{
+    font-weight: 300;
+}
+/* sisqe */
